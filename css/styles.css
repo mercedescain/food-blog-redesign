@@ -1,0 +1,115 @@
+/*********** GENERAL PAGE *************/
+
+body {
+  padding: 50px 25px 50px 50px;
+}
+
+/*#page {
+  width: 85%;
+}*/
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+/*************** HEADER **********************/
+
+.logo {
+  float: left;
+}
+
+.logo-group {
+  float: left;
+}
+
+.logo-written {
+  font-family:'Lobster', cursive;
+  width: 200px;
+  font-size: 2em;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.tagline {
+  font size: .5em;
+  font-family: ;
+}
+
+.social li {
+  display: inline;
+  float: right;
+}
+
+.social ul {
+  list-style: none;
+}
+
+.social li :nth-child(7) {
+
+}
+
+/************** ARTICLE ******************/
+
+.article-header {
+  float: left;
+  display: block;
+}
+
+p {
+  text-indent: 2em;
+  font-family: 'Slabo 27px', serif;
+  padding: 10px;
+}
+
+.ingredients {
+  background-image: url(../challenge/list-bg.png);
+  background-repeat: no-repeat;
+  list-style: none;
+  box-shadow: 0 0 5px 0 gray;
+-webkit-columns: 2;
+   -moz-columns: 2;
+        columns: 2;
+  columns: <;
+  padding: 40px 80px 40px 0;
+  line-height: 1.5;
+}
+
+.ingredients li {
+  margin-left: 40px;
+}
+
+/*input[type="checkbox"]:checked {
+
+}*/
+
+.pizza-img img {
+  width:100%;
+}
+
+
+/************** AUTHOR ******************/
+
+.author {
+
+}
+
+.share {
+  text-decoration: none;
+  color: #FFF;
+  background-color: red;
+  padding: 10px;
+}
+
+.share:hover {
+  background-color: darkred;
+}
