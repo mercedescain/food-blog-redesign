@@ -1,99 +1,111 @@
+
 /*********** GENERAL PAGE *************/
 
 body {
-  padding: 50px 25px 50px 50px;
+  margin: 25px 0px;
 }
 
-/*#page {
-  width: 85%;
-}*/
-
-.clearfix:after {
-     visibility: hidden;
-     display: block;
-     font-size: 0;
-     content: " ";
-     clear: both;
-     height: 0;
-     }
-.clearfix { display: inline-block; }
-/* start commented backslash hack \*/
-* html .clearfix { height: 1%; }
-.clearfix { display: block; }
-/* close commented backslash hack */
 
 /*************** HEADER **********************/
 
+
 .logo {
   float: left;
+  position: relative;
 }
 
 .logo-group {
   float: left;
+  position: relative;
+  width: 150px;
 }
 
 .logo-written {
   font-family:'Lobster', cursive;
-  width: 200px;
-  font-size: 2em;
+  font-size: 3.2rem;
   padding-bottom: 0;
   margin-bottom: 0;
 }
 
-
 .tagline {
-  font size: .5em;
+  font-size: 1rem;
   font-family: ;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .social li {
   display: inline;
   float: right;
+  position: relative;
+  padding: 14px 1px;
 }
 
 .social ul {
   list-style: none;
 }
 
-.social li :nth-child(7) {
-
+.main-header {
+  border-bottom: 2px double black;
+  padding-bottom: 14px;
 }
+
 
 /************** ARTICLE ******************/
 
+
 .article-header {
-  float: left;
-  display: block;
+  margin-top: 20px;
+  margin-bottom: 7px;
+  padding-top: 10px;
+  font-size: 4rem;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
 }
 
-p {
+.post-info {
+  float: left;
+  font-family: 'Ubuntu Mono', ;
+}
+
+.print {
+  float: right;
+  font-family: 'Ubuntu Mono', ;
+}
+
+.directions p {
   text-indent: 2em;
   font-family: 'Slabo 27px', serif;
   padding: 10px;
+  line-height: 2;
+  margin-bottom: 10px;
 }
 
 .ingredients {
   background-image: url(../challenge/list-bg.png);
   background-repeat: no-repeat;
   list-style: none;
-  box-shadow: 0 0 5px 0 gray;
 -webkit-columns: 2;
    -moz-columns: 2;
         columns: 2;
   columns: <;
-  padding: 40px 80px 40px 0;
-  line-height: 1.5;
+  padding: 30px 10px 20px 30px;
+  line-height: 1;
 }
 
 .ingredients li {
-  margin-left: 40px;
+  margin-left: 21px;
 }
 
 /*input[type="checkbox"]:checked {
 
 }*/
 
-.pizza-img img {
+.list {
+  border-bottom: 2px double black;
+}
+
+.pizza-img {
   width:100%;
 }
 
@@ -101,16 +113,38 @@ p {
 /************** AUTHOR ******************/
 
 .author {
+  margin-top: 35px;
+  font-family: 'Slabo 27px', serif;
+}
 
+.author h1 {
+  font-size: 2rem;
+  margin-bottom: 7px;
 }
 
 .share {
   text-decoration: none;
   color: #FFF;
   background-color: red;
-  padding: 10px;
+  padding: 10px 20px;
+  float: right;
+  margin-top: 35px;
+  font-family: 'Oswald', sans-serif;
 }
 
 .share:hover {
   background-color: darkred;
 }
+
+
+/****************** Footer *****************/
+
+.footer{
+  margin-top: 42px;
+  text-align: center;
+  font-family: ;
+}
+
+
+
+
