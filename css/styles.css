@@ -11,12 +11,10 @@ body {
 
 .logo {
   float: left;
-  position: relative;
 }
 
 .logo-group {
   float: left;
-  position: relative;
   width: 150px;
 }
 
@@ -46,7 +44,12 @@ body {
 }
 
 .main-header {
-  border-bottom: 2px double black;
+  border-bottom-style: solid;
+  border-bottom-width: 10px;
+  -moz-border-bottom-image: url(img/dash-Border.png) 27 repeat;
+  -webkit-border-bottom-image: url(img/dash-Border.png) 27 repeat;
+  -o-border-bottom-image: url(img/dash-Border.png) 27 repeat;
+  border-bottom-image: url(img/dash-Border.png) 27 fill repeat;
   padding-bottom: 14px;
 }
 
@@ -76,13 +79,14 @@ body {
 .directions p {
   text-indent: 2em;
   font-family: 'Slabo 27px', serif;
+  font-size: 1.8rem;
   padding: 10px;
   line-height: 2;
   margin-bottom: 10px;
 }
 
 .ingredients {
-  background-image: url(../challenge/list-bg.png);
+  background-image: url(../img/list-bg.png);
   background-repeat: no-repeat;
   list-style: none;
 -webkit-columns: 2;
@@ -102,7 +106,12 @@ body {
 }*/
 
 .list {
-  border-bottom: 2px double black;
+  border-bottom-style: solid;
+  border-bottom-width: 10px;
+  -moz-border-bottom-image: url(img/dash-Border.png) 27 repeat;
+  -webkit-border-bottom-image: url(img/dash-Border.png) 27 repeat;
+  -o-border-bottom-image: url(img/dash-Border.png) 27 repeat;
+  border-bottom-image: url(img/dash-Border.png) 27 fill repeat;
 }
 
 .pizza-img {
@@ -115,6 +124,7 @@ body {
 .author {
   margin-top: 35px;
   font-family: 'Slabo 27px', serif;
+  font-size: 1.8rem;
 }
 
 .author h1 {
@@ -141,10 +151,22 @@ body {
 
 .footer{
   margin-top: 42px;
+  padding-top: 25px;
+  font-family: 'Slabo 27px', serif;
+  color: #D1CFD5;
+  border-top: 1px solid #D1CFD5;
   text-align: center;
-  font-family: ;
 }
 
+.footer:before {
+  background: url(img/small-logo);
+}
+
+#footer-logo {
+  background-color: red;
+  width: 50px;
+  height: 50px;
+}
 
 
 
