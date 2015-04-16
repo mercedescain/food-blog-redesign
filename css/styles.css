@@ -11,6 +11,7 @@ body {
 
 .logo {
   float: left;
+  margin-right: 7px;
 }
 
 .logo-group {
@@ -19,13 +20,15 @@ body {
 }
 
 .logo-written {
-  font-family:'Lobster', cursive;
+  float: left;
+  font-family: 'Yellowtail', cursive;
   font-size: 3.2rem;
   padding-bottom: 0;
   margin-bottom: 0;
 }
 
 .tagline {
+  float: left;
   font-size: 1rem;
   font-family: ;
   padding-bottom: 0px;
@@ -67,17 +70,17 @@ body {
 
 .post-info {
   float: left;
-  font-family: 'Ubuntu Mono', ;
+  font-family: 'Abel', sans-serif;
 }
 
 .print {
   float: right;
-  font-family: 'Ubuntu Mono', ;
+  font-family: 'Abel', sans-serif;
 }
 
 .directions p {
   text-indent: 2em;
-  font-family: 'Slabo 27px', serif;
+  font-family: 'Droid Serif', serif;
   font-size: 1.8rem;
   padding: 10px;
   line-height: 1.7;
@@ -98,6 +101,7 @@ body {
 
 .ingredients li {
   margin-left: 21px;
+  font-family: 'Patrick Hand', cursive;
 }
 
 input[type="checkbox"]:checked {
@@ -122,7 +126,7 @@ input[type="checkbox"]:checked {
 
 .author {
   margin-top: 35px;
-  font-family: 'Slabo 27px', serif;
+  font-family: 'Droid Serif', serif;
   font-size: 1.8rem;
 }
 
@@ -152,7 +156,7 @@ input[type="checkbox"]:checked {
 .footer{
   margin-top: 42px;
   padding-top: 25px;
-  font-family: 'Slabo 27px', serif;
+  font-family: 'Droid Serif', serif;
   color: #D1CFD5;
   border-top: 1px solid #D1CFD5;
   text-align: center;
