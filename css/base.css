@@ -17,36 +17,17 @@ body {
    ========================================================================== */
 
 
-article, aside, details, figcaption,figure,footer,header,hgroup,
-main,menu,nav,section,summary {
+article, aside, details, footer, header, hgroup,
+main, menu, nav, section, summary {
   display: block;
 }
 
-audio,canvas,progress,video {
-  display: inline-block; /* 1 */
-  vertical-align: baseline; /* 2 */
-}
-
-audio:not([controls]) {
-  display: none;
-  height: 0;
-}
-
-[hidden],
-template {
-  display: none;
-}
 
 /* Links
    ========================================================================== */
 
 a {
   background-color: transparent;
-}
-
-a:active,
-a:hover {
-  outline: 0;
 }
 
 /* Text-level semantics
@@ -62,33 +43,9 @@ strong {
   font-weight: bold;
 }
 
-dfn {
-  font-style: italic;
-}
-
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
-}
-
-small {
-  font-size: 80%;
-}
-
-sub,
-sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
-
-sup {
-  top: -0.5em;
-}
-
-sub {
-  bottom: -0.25em;
 }
 
 
@@ -113,123 +70,11 @@ code,kbd,pre,samp {
   font-size: 1em;
 }
 
-/* Forms
-   ========================================================================== */
-
-/**
- * Known limitation: by default, Chrome and Safari on OS X allow very limited
- * styling of `select`, unless a `border` property is set.
- */
-
-/**
- * 1. Correct color not being inherited.
- *    Known issue: affects color of disabled elements.
- * 2. Correct font properties not being inherited.
- * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
- */
-
-button,input,optgroup,select,textarea {
-  color: inherit; /* 1 */
-  font: inherit; /* 2 */
-  margin: 0; /* 3 */
-}
-
-button {
-  overflow: visible;
-}
-
-button,
-select {
-  text-transform: none;
-}
-
-
-button,
-html input[type="button"], /* 1 */
-input[type="reset"],
-input[type="submit"] {
-  -webkit-appearance: button; /* 2 */
-  cursor: pointer; /* 3 */
-}
-
-
-button[disabled],
-html input[disabled] {
-  cursor: default;
-}
-
-
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-  border: 0;
-  padding: 0;
-}
-
-input {
-  line-height: normal;
-}
-
-
-input[type="checkbox"],
-input[type="radio"] {
-  box-sizing: border-box; /* 1 */
-  padding: 0; /* 2 */
-}
-
-
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
-  height: auto;
-}
-
-
-input[type="search"] {
-  -webkit-appearance: textfield; /* 1 */
-  box-sizing: content-box; /* 2 */
-}
-
-
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
-
-
-fieldset {
-  border: 1px solid #c0c0c0;
-  margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em;
-}
-
-legend {
-  border: 0; /* 1 */
-  padding: 0; /* 2 */
-}
-
-textarea {
-  overflow: auto;
-}
-
-optgroup {
-  font-weight: bold;
-}
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 
 /* Base Styles from Skeleton
-note to self go through and take out things I won't use
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* NOTE
 html is set to 62.5% so that all the REM measurements throughout Skeleton
@@ -275,130 +120,7 @@ p {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
   color: #1EAEDB; }
-a:hover {
-  color: #0FA0CE; }
 
-
-/* Buttons
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.button,
-button,
-input[type="submit"],
-input[type="reset"],
-input[type="button"] {
-  display: inline-block;
-  height: 38px;
-  padding: 0 30px;
-  color: #555;
-  text-align: center;
-  font-size: 11px;
-  font-weight: 600;
-  line-height: 38px;
-  letter-spacing: .1rem;
-  text-transform: uppercase;
-  text-decoration: none;
-  white-space: nowrap;
-  background-color: transparent;
-  border-radius: 4px;
-  border: 1px solid #bbb;
-  cursor: pointer;
-  box-sizing: border-box; }
-.button:hover,
-button:hover,
-input[type="submit"]:hover,
-input[type="reset"]:hover,
-input[type="button"]:hover,
-.button:focus,
-button:focus,
-input[type="submit"]:focus,
-input[type="reset"]:focus,
-input[type="button"]:focus {
-  color: #333;
-  border-color: #888;
-  outline: 0; }
-.button.button-primary,
-button.button-primary,
-input[type="submit"].button-primary,
-input[type="reset"].button-primary,
-input[type="button"].button-primary {
-  color: #FFF;
-  background-color: #33C3F0;
-  border-color: #33C3F0; }
-.button.button-primary:hover,
-button.button-primary:hover,
-input[type="submit"].button-primary:hover,
-input[type="reset"].button-primary:hover,
-input[type="button"].button-primary:hover,
-.button.button-primary:focus,
-button.button-primary:focus,
-input[type="submit"].button-primary:focus,
-input[type="reset"].button-primary:focus,
-input[type="button"].button-primary:focus {
-  color: #FFF;
-  background-color: #1EAEDB;
-  border-color: #1EAEDB; }
-
-
-/* Forms
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-input[type="email"],
-input[type="number"],
-input[type="search"],
-input[type="text"],
-input[type="tel"],
-input[type="url"],
-input[type="password"],
-textarea,
-select {
-  height: 38px;
-  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
-  background-color: #fff;
-  border: 1px solid #D1D1D1;
-  border-radius: 4px;
-  box-shadow: none;
-  box-sizing: border-box; }
-/* Removes awkward default styles on some inputs for iOS */
-input[type="email"],
-input[type="number"],
-input[type="search"],
-input[type="text"],
-input[type="tel"],
-input[type="url"],
-input[type="password"],
-textarea {
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none; }
-textarea {
-  min-height: 65px;
-  padding-top: 6px;
-  padding-bottom: 6px; }
-input[type="email"]:focus,
-input[type="number"]:focus,
-input[type="search"]:focus,
-input[type="text"]:focus,
-input[type="tel"]:focus,
-input[type="url"]:focus,
-input[type="password"]:focus,
-textarea:focus,
-select:focus {
-  border: 1px solid #33C3F0;
-  outline: 0; }
-label,
-legend {
-  display: block;
-  margin-bottom: .5rem;
-  font-weight: 600; }
-fieldset {
-  padding: 0;
-  border-width: 0; }
-input[type="checkbox"],
-input[type="radio"] {
-  display: inline; }
-label > .label-body {
-  display: inline-block;
-  margin-left: .5rem;
-  font-weight: normal; }
 
 
 /* Lists
@@ -436,40 +158,11 @@ pre > code {
   white-space: pre; }
 
 
-/* Tables
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-th,
-td {
-  padding: 12px 15px;
-  text-align: left;
-  border-bottom: 1px solid #E1E1E1; }
-th:first-child,
-td:first-child {
-  padding-left: 0; }
-th:last-child,
-td:last-child {
-  padding-right: 0; }
-
 
 /* Spacing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-button,
-.button {
-  margin-bottom: 1rem; }
-input,
-textarea,
-select,
-fieldset {
-  margin-bottom: 1.5rem; }
-pre,
-blockquote,
-dl,
-figure,
-table,
-p,
-ul,
-ol,
-form {
+
+pre, p, ul, ol, {
   margin-bottom: 2.5rem; }
 
 
@@ -489,9 +182,6 @@ form {
 
 /* Misc
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-hr {
-  margin-top: 3rem;
-  margin-bottom: 3.5rem;
-  border-width: 0;
-  border-top: 1px solid #E1E1E1; }
+
+
 
