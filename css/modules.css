@@ -9,17 +9,17 @@ body {
 /*************** HEADER **********************/
 
 
-.header-logo {
+.header_logo {
   float: left;
   margin-right: 7px;
 }
 
-.header-logo-group {
+.header_logo-group {
   float: left;
   width: 150px;
 }
 
-.header-logo-written {
+.header_logo-written {
   float: left;
   font-family: 'Yellowtail', cursive;
   font-size: 3.2rem;
@@ -27,7 +27,7 @@ body {
   margin-bottom: 0;
 }
 
-.header-tagline {
+.header_tagline {
   float: left;
   font-size: 1rem;
   font-family: ;
@@ -35,12 +35,12 @@ body {
   margin-bottom: 0px;
 }
 
-.header-social-nav {
+.header_social-nav {
   float: right;
   padding: 14px 1px;
 }
 
-.header-social-nav:nth-child(2) {
+.header_social-nav:nth-child(2) {
   padding-left: 10px;
 }
 
@@ -58,7 +58,7 @@ body {
 /************** ARTICLE ******************/
 
 
-.article-header {
+.article_header {
   margin-top: 20px;
   margin-bottom: 7px;
   padding-top: 10px;
@@ -72,12 +72,12 @@ body {
   font-family: 'Abel', sans-serif;
 }
 
-.print {
+.icon_print {
   float: right;
   font-family: 'Abel', sans-serif;
 }
 
-.pizza-img {
+.img_main-img {
   width:100%;
 }
 
@@ -92,7 +92,7 @@ body {
 
 /**************CHECKLIST **************/
 
-.ingredients {
+.list_ingredients {
   background-image: url(../img/list-bg.png);
   background-repeat: no-repeat;
   list-style: none;
@@ -104,7 +104,7 @@ body {
   line-height: 1;
 }
 
-.ingredients li {
+.list_ingredients li {
   margin-left: 21px;
   font-family: 'Patrick Hand', cursive;
 }
@@ -113,7 +113,7 @@ input[type="checkbox"]:checked {
 
 }
 
-.list {
+.section_list {
   border-bottom-style: solid;
   border-bottom-width: 10px;
   padding: 14px 0 14px 0;
@@ -132,18 +132,18 @@ input[type="checkbox"]:checked {
 
 /************** AUTHOR ******************/
 
-.author {
+.section_author {
   margin-top: 45px;
   font-family: 'Droid Serif', serif;
   font-size: 1.8rem;
 }
 
-.author h1 {
+.section_author h1 {
   font-size: 2rem;
   margin-bottom: 7px;
 }
 
-.share {
+.link_share {
   text-decoration: none;
   color: #FFF;
   background-color: red;
@@ -153,15 +153,9 @@ input[type="checkbox"]:checked {
   font-family: 'Oswald', sans-serif;
 }
 
-.share:hover {
-  background-color: #990000;
-  color: #D1CFD5;
-}
-
-
 /****************** Footer *****************/
 
-.footer{
+footer {
   margin-top: 42px;
   padding-top: 25px;
   font-family: 'Droid Serif', serif;
@@ -170,14 +164,18 @@ input[type="checkbox"]:checked {
   text-align: center;
 }
 
-.footer-logo {
+.footer_logo {
   margin-top: -44px;
   position: absolute;
 }
 
-.footer-text {
+.footer_text {
   margin-bottom: 0;
 }
 
+.section_copyright {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 
 
