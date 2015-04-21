@@ -77,6 +77,10 @@ body {
   font-family: 'Abel', sans-serif;
 }
 
+.pizza-img {
+  width:100%;
+}
+
 .directions p {
   text-indent: 2em;
   font-family: 'Droid Serif', serif;
@@ -85,6 +89,8 @@ body {
   line-height: 1.7;
   margin-bottom: 10px;
 }
+
+/**************CHECKLIST **************/
 
 .ingredients {
   background-image: url(../img/list-bg.png);
@@ -115,10 +121,12 @@ input[type="checkbox"]:checked {
   -webkit-border-bottom-image: url(img/dash-Border.png) 10 repeat;
   -o-border-bottom-image: url(img/dash-Border.png) 10 repeat;
   border-bottom-image: url(img/dash-Border.png) 10 fill repeat;
+
 }
 
-.pizza-img {
-  width:100%;
+.border-style-top {
+  background: url(img/dash-Border);
+  background-repeat: repeat-x;
 }
 
 

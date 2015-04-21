@@ -31,19 +31,8 @@ body {
  * Correct `block` display not defined for `main` in IE 11.
  */
 
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-menu,
-nav,
-section,
-summary {
+article, aside, details, figcaption,figure,footer,header,hgroup,
+main,menu,nav,section,summary {
   display: block;
 }
 
@@ -52,10 +41,7 @@ summary {
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
  */
 
-audio,
-canvas,
-progress,
-video {
+audio,canvas,progress,video {
   display: inline-block; /* 1 */
   vertical-align: baseline; /* 2 */
 }
@@ -227,10 +213,7 @@ pre {
  * Address odd `em`-unit font size rendering in all browsers.
  */
 
-code,
-kbd,
-pre,
-samp {
+code,kbd,pre,samp {
   font-family: monospace, monospace;
   font-size: 1em;
 }
@@ -250,11 +233,7 @@ samp {
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
  */
 
-button,
-input,
-optgroup,
-select,
-textarea {
+button,input,optgroup,select,textarea {
   color: inherit; /* 1 */
   font: inherit; /* 2 */
   margin: 0; /* 3 */
