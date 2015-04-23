@@ -6,3 +6,7 @@
   color: #D1CFD5;
   outline: 0;
 }
+
+input[type="checkbox"]:checked {
+  color: red;
+}

@@ -1,9 +1,9 @@
 
 /*********** GENERAL PAGE *************/
 
-body {
+/*body {
   margin: 35px 0px;
-}
+}*/
 
 
 /*************** HEADER **********************/
@@ -83,10 +83,7 @@ body {
 
 .directions p {
   text-indent: 2em;
-  font-family: 'Droid Serif', serif;
-  font-size: 1.8rem;
   padding: 10px;
-  line-height: 1.7;
   margin-bottom: 10px;
 }
 
@@ -109,9 +106,6 @@ body {
   font-family: 'Patrick Hand', cursive;
 }
 
-input[type="checkbox"]:checked {
-
-}
 
 .section_list {
   border-bottom-style: solid;
@@ -134,8 +128,6 @@ input[type="checkbox"]:checked {
 
 .section_author {
   margin-top: 45px;
-  font-family: 'Droid Serif', serif;
-  font-size: 1.8rem;
 }
 
 .section_author h1 {
@@ -158,7 +150,6 @@ input[type="checkbox"]:checked {
 footer {
   margin-top: 42px;
   padding-top: 25px;
-  font-family: 'Droid Serif', serif;
   color: #D1CFD5;
   border-top: 1px solid #D1CFD5;
   text-align: center;
