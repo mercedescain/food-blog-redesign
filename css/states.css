@@ -1,0 +1,12 @@
+
+/****************STATES****************/
+
+.link_share:hover {
+  background-color: #990000;
+  color: #D1CFD5;
+  outline: 0;
+}
+
+input[type="checkbox"]:checked {
+  color: red;
+}

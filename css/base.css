@@ -1,0 +1,117 @@
+
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+
+
+article, aside, details, footer, header, hgroup,
+main, menu, nav, section, summary {
+  display: block;
+}
+
+
+/* Links
+   ========================================================================== */
+
+a {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+/* Text-level semantics
+   ========================================================================== */
+
+/* NOTE
+html is set to 62.5% so that all the REM measurements throughout Skeleton
+are based on 10px sizing. So basically 1.5rem = 15px :) */
+
+html {
+  font-size: 62.5%; }
+
+h1, h2 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 3.3rem;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-family: 'Abel', sans-serif;
+  font-size: 1.5rem;
+}
+
+body {
+  font-family: 'Droid Serif', serif;
+  color: #292929;
+  font-size: 1.8rem;
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+  h1 { font-size: 3.3rem; }
+  h2 { font-size: 1.5rem; }
+
+
+
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+a {
+  color: #1EAEDB;
+  text-decoration: none;
+  font-family: 'Abel', sans-serif;
+}
+
+
+/* Lists
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+ul {
+  list-style: none;
+  line-height: .5;
+}
+
+li {
+  margin-bottom: 1rem;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 2.1rem;
+  color: #292929;
+}
+
+
+
+/* Spacing and Borders
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+p, ul, ol, {
+  margin-bottom: 2.5rem;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+header {
+  margin-top: 35px;
+}
+
+footer {
+  margin-top: 42px;
+  padding-top: 25px;
+  border-top: 1px solid #D1CFD5;
+  text-align: center;
+}
+
+
+
