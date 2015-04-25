@@ -1,13 +1,11 @@
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
-
 html {
   font-family: sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
-
 
 body {
   margin: 0;
@@ -56,15 +54,12 @@ h2 {
   font-size: 1.5rem;
 }
 
-p {
+body {
   line-height: 1.7;
   font-family: 'Droid Serif', serif;
   color: #292929;
   font-size: 1.8rem;
-  margin-top: 15px;
-  margin-bottom: 15px;
 }
-
 
 /* Larger than phablet */
 @media (min-width: 550px) {
@@ -99,24 +94,25 @@ li {
 
 
 
-/* Spacing
+/* Spacing and Borders
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 p, ul, ol, {
-  margin-bottom: 2.5rem; }
+  margin-bottom: 2.5rem;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
 
 header {
   margin-top: 35px;
 }
 
-
-/* Utilities
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-
-
-/* Misc
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+footer {
+  margin-top: 42px;
+  padding-top: 25px;
+  border-top: 1px solid #D1CFD5;
+  text-align: center;
+}
 
 
 
