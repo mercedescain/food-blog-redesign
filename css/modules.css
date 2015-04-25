@@ -5,24 +5,25 @@
 
 .header_logo {
   float: left;
+  padding-top: 14px;
 }
 
 .header_logo-group {
   float: left;
   width: 150px;
+  margin-left: -20px;
 }
 
 .header_logo-written {
   float: left;
   font-family: 'Yellowtail', cursive;
-  padding-bottom: 0;
-  margin-bottom: 0;
+  margin-top: 5px;
 }
 
 .header_tagline {
   float: left;
   font-size: 1rem;
-  padding-bottom: 0px;
+  margin-top: -5px;
 }
 
 .header_social-nav {
@@ -30,18 +31,19 @@
   padding: 14px 1px;
 }
 
+
 .header_social-nav:nth-child(2) {
   padding-left: 10px;
 }
 
 .main-header {
-  border-bottom-style: solid;
-  border-bottom-width: 10px;
-  -moz-border-bottom-image: url(img/dash-Border.png) 27 repeat;
-  -webkit-border-bottom-image: url(img/dash-Border.png) 27 repeat;
-  -o-border-bottom-image: url(img/dash-Border.png) 27 repeat;
-  border-bottom-image: url(img/dash-Border.png) 27 fill repeat;
-  padding-bottom: 14px;
+  border-style: solid;
+  border-width: 0px 0px 13px;
+  -moz-border-image: url(../img/dash-Border.png) 0 0 13 repeat;
+  -webkit-border-image: url(../img/dash-Border.png) 0 0 13 repeat;
+  -o-border-image: url(../img/dash-Border.png) 0 0 13 repeat;
+  border-image: url(../img/dash-Border.png) 0 0 13 fill repeat;
+  padding-bottom: 24px;
 }
 
 
@@ -50,16 +52,15 @@
 
 .article_header {
   margin-top: 20px;
-  margin-bottom: 7px;
   padding-top: 10px;
-  font-size: 4rem;
   font-family: 'Oswald', sans-serif;
-  font-weight: 700;
 }
 
 .post-info {
   float: left;
   color: #D1CFD5;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
 }
 
 .icon_print {
@@ -74,7 +75,6 @@
 .directions p {
   text-indent: 2em;
   padding: 10px;
-  margin-bottom: 10px;
 }
 
 /**************CHECKLIST **************/
@@ -83,13 +83,11 @@
   background-image: url(../img/list-bg.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  list-style: none;
   -webkit-columns: 2;
     -moz-columns: 2;
     columns: 2;
   columns: <;
-  padding: 10px 20px;
-  line-height: .5;
+  padding: 30px;
 }
 
 .list_ingredients li {
@@ -98,10 +96,13 @@
 
 
 .section_list {
-  border-bottom-style: solid;
-  border-bottom-width: 10px;
-  padding: 14px 0 14px 0;
-
+  border-style: solid;
+  border-width: 0px 27px 13px;
+  -moz-border-image: url(../img/dash-Border.png) 0 27 13 repeat;
+  -webkit-border-image: url(../img/dash-Border.png) 0 27 13 repeat;
+  -o-border-image: url(../img/dash-Border.png) 0 27 13 repeat;
+  border-image: url(../img/dash-Border.png) 0 27 13 fill repeat;
+  padding-bottom: 35px;
 }
 
 
@@ -114,17 +115,17 @@
 
 .section_author h1 {
   font-size: 2rem;
-  margin-bottom: 7px;
+  font-family: 'Droid Serif', serif;
 }
 
 .link_share {
-  text-decoration: none;
+  float: right;
   color: #FFF;
   background-color: #BC7058;
   padding: 10px 20px;
-  float: right;
   margin-top: 35px;
-  font-family: 'Oswald', sans-serif;
+  font-size: 2.1rem;
+
 }
 
 /****************** Footer *****************/
@@ -132,7 +133,6 @@
 footer {
   margin-top: 42px;
   padding-top: 25px;
-  color: #D1CFD5;
   border-top: 1px solid #D1CFD5;
   text-align: center;
 }
@@ -142,7 +142,7 @@ footer {
 }
 
 .footer_text {
-
+  color: #D1CFD5;
 }
 
 .section_copyright {
